@@ -1,6 +1,11 @@
 .topbar{
   background-color: #282c34;
   padding: 24px 48px 12px;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
 
 .topbar > img{
@@ -8,8 +13,31 @@
 }
 
 
+.MainContainer{
+  padding: 4% 12%;
+  margin: 32px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 
+.ProductPreview{
+  width: 50%;
+}
 
+.ProductPreview > img{
+  width: 100%;
+}
+
+.ProductData{
+  width: 50%;
+}
+.ProductTitle{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 
 

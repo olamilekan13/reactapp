@@ -1,3 +1,8 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
 .topbar{
   background-color: #282c34;
   padding: 24px 48px 12px;
@@ -36,7 +41,25 @@
 .ProductTitle{
   font-size: 48px;
   font-weight: 600;
-  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.ProductDescription{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 0;
+  margin-bottom: 16px;
+  
+
+}
+
+.ProductImage{
+  width: 100%;
+  max-width: 80px;
+  border: 2px solid teal;
+  border-radius: 8px;
+
 }
 
 

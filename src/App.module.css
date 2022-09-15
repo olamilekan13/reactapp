@@ -1,4 +1,35 @@
-.App {
+.topbar{
+  background-color: #282c34;
+  padding: 24px 48px 12px;
+}
+
+.topbar > img{
+  width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +66,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

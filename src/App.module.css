@@ -57,11 +57,16 @@ body{
 .ProductImage{
   width: 100%;
   max-width: 80px;
-  border: 2px solid teal;
+  border: 2px solid transparent;
   border-radius: 8px;
+  margin-right: 12px;
 
 }
 
+.SelectedProductImage {
+  border: 2px solid teal;
+
+}
 
 
 

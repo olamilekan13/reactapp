@@ -23,8 +23,8 @@ function App() {
 
           <h3 className={classes.SectionHeading}>Select Color :</h3>
           <div> 
+            <img className= {classes.ProductImage} src='https://imgur.com/iOeUBV7.png' alt='black colored watch'></img>            
             <img className= {classes.ProductImage} src='https://imgur.com/PTgQlim.png' alt='red colored watch'></img>
-            <img className= {classes.ProductImage} src='https://imgur.com/iOeUBV7.png' alt='black colored watch'></img>
             <img className= {classes.ProductImage} src='https://imgur.com/Mplj1YR.png' alt='blue colored watch'></img>
             <img className= {classes.ProductImage} src='https://imgur.com/xSIK4M8.png' alt='purple colored watch'></img>
           </div>

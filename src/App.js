@@ -31,8 +31,8 @@ function App() {
 
           <h3 className={classes.SectionHeading}>Featured</h3>
           <div>
-            <button className= {classes.FeatureItem}>Time</button>
-            <button className= {classes.FeatureItem}>Heart Rate</button>
+            <button className= {[classes.FeatureItem, classes.SelectredFeatureItem].join(' ')}>Time</button>
+            <button className= {[classes.FeatureItem, classes.SelectredFeatureItem].join(' ')}>Heart Rate</button>
           </div>
 
         </div>
